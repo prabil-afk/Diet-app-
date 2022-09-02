@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "670390496752",
+    "project_id": "it-project-675c5",
+    "storage_bucket": "it-project-675c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:670390496752:android:0ee723c7933ebf8d50c135",
+        "android_client_info": {
+          "package_name": "com.example.flutter_diet_tips"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "670390496752-mpne5mu9hbsgaa5u4i1q67ha39t3ejua.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMaRgo66gLI6pBnFCyqiFntegCRwY7xr8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "670390496752-mpne5mu9hbsgaa5u4i1q67ha39t3ejua.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
