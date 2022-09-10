@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "670390496752",
-    "project_id": "it-project-675c5",
-    "storage_bucket": "it-project-675c5.appspot.com"
+    "project_number": "538769142458",
+    "project_id": "diet-bf33c",
+    "storage_bucket": "diet-bf33c.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:670390496752:android:0ee723c7933ebf8d50c135",
+        "mobilesdk_app_id": "1:538769142458:android:a1e190a0a358aed8f18883",
         "android_client_info": {
           "package_name": "com.example.flutter_diet_tips"
         }
       },
       "oauth_client": [
         {
-          "client_id": "670390496752-mpne5mu9hbsgaa5u4i1q67ha39t3ejua.apps.googleusercontent.com",
+          "client_id": "538769142458-7pj2n5l8ep5qbere3383b2k35mh209o8.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDMaRgo66gLI6pBnFCyqiFntegCRwY7xr8"
+          "current_key": "AIzaSyD14PPgvTTrNlsMpj0GmSr19rit2LhyGzw"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "670390496752-mpne5mu9hbsgaa5u4i1q67ha39t3ejua.apps.googleusercontent.com",
+              "client_id": "538769142458-7pj2n5l8ep5qbere3383b2k35mh209o8.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
