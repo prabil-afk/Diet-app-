@@ -108,6 +108,35 @@ class _ProfilePageState extends State<ProfilePage> {
                     ),
                   ),
                 ),
+                GestureDetector(
+                  // onTap: () {
+                  //   Navigator.push(
+                  //     context,
+                  //     MaterialPageRoute(
+                  //         builder: (context) => const AgeChartScreen()),
+                  //   );
+                  // },
+                  child: Container(
+                    margin: EdgeInsets.only(bottom: 16),
+                    height: 50,
+                    decoration: BoxDecoration(
+                        color: Colors.grey[300],
+                        borderRadius: BorderRadius.circular(6)),
+                    child: Row(
+                      children: [
+                        SizedBox(width: 20),
+                        Icon(
+                          Icons.monitor_weight_outlined,
+                          size: 40,
+                        ),
+                        SizedBox(width: 20),
+                        Text("Age Chart",
+                            style: GoogleFonts.poppins(
+                                fontSize: 14, fontWeight: FontWeight.w600)),
+                      ],
+                    ),
+                  ),
+                ),
               ],
             ),
           ),

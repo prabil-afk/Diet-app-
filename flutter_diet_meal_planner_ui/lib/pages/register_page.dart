@@ -57,7 +57,6 @@ class _RegisterPageState extends State<RegisterPage> {
       await FirebaseAuth.instance.createUserWithEmailAndPassword(
         email: _emailController.text.trim(),
         password: _passwordController.text.trim(),
-        // displayName: _displayNameController.text.trim(),
       );
 
       // If Password is confirmed then...

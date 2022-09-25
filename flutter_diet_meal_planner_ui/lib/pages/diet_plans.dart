@@ -17,6 +17,7 @@ class _DietPlansState extends State<DietPlans> {
     ///
     ///
     List<String> docIDs = [];
+
     Future getDocId() async {
       await FirebaseFirestore.instance.collection('diets').get().then(
             (snapshot) => snapshot.docs.forEach((document) {
@@ -62,46 +63,5 @@ class _DietPlansState extends State<DietPlans> {
                     });
               })),
     );
-
-    // return Container(
-    //   child: ,
-    // )
-
-    // return Scaffold(
-    //    body: StreamBuilder<QuerySnapshot>(
-    //       stream: FirebaseFirestore.instance.collection('diets').snapshots(),
-    //       builder:
-    //           (BuildContext context, AsyncSnapshot<QuerySnapshot> snapshot) {
-    //         if (!snapshot.hasData) {
-    //           return Center(
-    //             child: CircularProgressIndicator(),
-    //           );
-    //         }
-
-    //         return ListView(
-    //   //  snapshot.docs.forEach((document)
-    //           children: snapshot.data.documents.map((document) {
-    //             var url = document['url'];
-
-    //             return Center(
-    //               child: Container(
-    //                 width: MediaQuery.of(context).size.width / 1.2,
-    //                 child: Column(
-    //                   children: <Widget>[
-    //                     Padding(
-    //                       padding: EdgeInsets.only(top: 20, bottom: 5,),
-    //                       child: Text(document['title'],
-    //                           style: GoogleFonts.quicksand(
-    //                               fontStyle: FontStyle.normal)),
-    //                     ),
-
-    //                   ],
-    //                 ),
-    //               ),
-    //             );
-    //           }).toList(),
-    //         );
-    //       })
-    // );
   }
 }
